@@ -95,13 +95,13 @@ for N=1:size(xr,2)
                 xposMSmaxebblee(CT(i+1),N)=sqrt((steep_face.xr_sw(cr_pos+pme,N)-xr(cr_pos,N))^2+(steep_face.yr_sw(cr_pos+pme,N)-yr(cr_pos,N))^2)/Lebblee(CT(i+1),N);
                 
                 xcrest(CT(i+1),N)=xr(cr_pos,N);
-                ycrest(CT(i+1),N)=yr(1,N);
+                ycrest(CT(i+1),N)=yr(cr_pos,N);
                 zcrest(CT(i+1),N)=zr(cr_pos,N);
                 xtrough1(CT(i+1),N)=xr(tr1_pos,N);
-                ytrough1(CT(i+1),N)=yr(1,N);
+                ytrough1(CT(i+1),N)=yr(tr1_pos,N);
                 ztrough1(CT(i+1),N)=zr(tr1_pos,N);
                 xtrough2(CT(i+1),N)=xr(tr2_pos,N);
-                ytrough2(CT(i+1),N)=yr(1,N);
+                ytrough2(CT(i+1),N)=yr(tr2_pos,N);
                 ztrough2(CT(i+1),N)=zr(tr2_pos,N);
                 meanbedformdepth(CT(i+1),N)=nanmean(zr(tr1_pos:tr2_pos,N));
                 %                 figure
