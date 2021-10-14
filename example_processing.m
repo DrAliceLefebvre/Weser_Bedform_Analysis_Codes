@@ -3,16 +3,13 @@
 % it can easily be adapted to rapidly process many files, for example with
 % a for-loop
 
-% example data ==> so sorry, this is not yet available!! I can hopefully
-% add it soon, when I have recived the authorisation to share the data
-% projected on a curvilinear grid following the Weser waterway 
-%load('Weser_20090210_km47-55')   % not yet available
+% example data, with many thanks to Wasserstraßen- und Schifffahrtsamt 
+% Weser-Jade-Nordsee, Standort Bremerhaven for allowing us to share the data
+load('Weser_20090210_km47-55')   % not yet available
   
-% ! ! ! ! !
-% the processing assumes that the channel direction is from south to north
-% (i.e. the Weser direction). If your input data are with the streamwise
-% direction along the x-axis and crosswise along the y-axis, simply input:
-%xr=y; yr=x; zr=z;
+% xr and yr should be (measures of) longitude and latitude
+% if you have x as streamwise and y as crosswise, use the following line
+%xr=yr; yr=xr; zr=zr;
 
 % It is also assumed that size(xr,1)<size(xr,2), 
 if size(xr,1)<size(xr,2)
