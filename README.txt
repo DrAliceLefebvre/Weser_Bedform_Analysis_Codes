@@ -1,5 +1,5 @@
 Below is information on the files in this folder, the inputs to these functions, 
-and how to run the processing described in Lefebvre et al. (submitted).
+and how to run the processing described in Lefebvre et al. (2021).
 
 There are three main functions to do the processing
 get_crest_troughlines.m = calculates the position and properties of crestlines
@@ -39,8 +39,9 @@ the GNU General Public License as published by the Free Software Foundation, eit
 version 3 of the License, or (at your option) any later version.
 
 If you use the software, please cite the paper
-Lefebvre, A., Herrling, G., Becker, M., Zorndt, A., Krämer, K., Winter, C., (submitted). 
-Morphology of estuarine bedforms, Weser Estuary, Germany. Earth Surface Processes and Landforms
+Lefebvre, A., Herrling, G., Becker, M., Zorndt, A., Krämer, K. & Winter, C. (2021).
+Morphology of estuarine bedforms, Weser Estuary, Germany. Earth Surface
+Processes and Landforms,1–15. https://doi.org/10.1002/esp.5243
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
