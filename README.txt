@@ -7,6 +7,8 @@ tidal_steep_faces.m = calculates the position and properties of tidal steep face
 tidal_bedform_properties.m = calculates the properties of BEP bedforms
 
 An example of how to run the processing is given in example_processing.m
+Many thanks to to Wasserstraßen- und Schifffahrtsamt Weser-Jade-Nordsee, Standort Bremerhaven 
+for allowing us to share the data
 
 The main input is with a 3D bathymetry (xr,yr,zr) from a (constrained) tidal environment. 
 It is assumed that 
