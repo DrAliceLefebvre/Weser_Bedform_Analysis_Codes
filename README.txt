@@ -1,5 +1,8 @@
 Below is information on the files in this folder, the inputs to these functions, 
 and how to run the processing described in Lefebvre et al. (2021).
+Lefebvre, A, Her­rling, Zorndt, A, G, Becker, M, Krämer, K, Winter, C, 2021.
+Mor­pho­logy of es­tu­ar­ine bed­forms, Weser Es­tu­ary, Ger­many. Earth Sur­face 
+Pro­cesses and Land­forms https://doi.org/10.1002/esp.5243
 
 There are three main functions to do the processing
 get_crest_troughlines.m = calculates the position and properties of crestlines
@@ -24,6 +27,9 @@ probably have to be adapated for data with higher resolution!
 
 If you have any questions feel welcome to contact me at alefebvre@marum.de
 I would be happy to work together to improve or fix any errors. Any feedback will be welcome!
+
+How to cite this material
+https://doi.org/10.5281/zenodo.10715613
 
 Alice Lefebvre (she/her)
 MARUM - University of Bremen
